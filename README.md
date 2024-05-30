@@ -15,10 +15,13 @@ This application can be run with a trigger URL and API secret of Sequence rules 
 - This data is then scaled between the max and min for the date range under consideration.
 - A moving average is then calculated to smooth the results.
 - The current composite scaled close is then compared to the last market high for your personal portfolios.
-- 
-Normal market: If your personal portfolio performance is less than 10% away from its highs, you take a distribution from your investments.
-Correction: If your personal portfolio performance is more than 10% away from its highs but less than 20% away from its highs, you take a scaled increment from both investemnt and cash reserves.
-Bear market: If the S&P 500 is more than 20% away from its highs, you spend none of your discretionary spending in the next year.
+
+  - Normal market: If your personal portfolio performance is less than 10% away from its highs, you take a distribution from your investments.
+  - Correction: If your personal portfolio performance is more than 10% away from its highs but less than 20% away from its highs, you take a scaled increment from both investemnt and cash reserves. (e.g. If 14.3% from high then take 43% from investments and 57% from cash.)
+  - Bear market: If your personal portfolio performance is more than 20% away from its highs, you take 100% from cash reserves.
+
+
+ 
 
 ### Built with
 
