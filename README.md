@@ -6,7 +6,9 @@ Optimized Timing of Withdrawals based upon your Personalized Portfolios Performa
 
 ## Description
 
-This application can be run with a trigger URL and API secret of Sequence rules to trigger them immediately.
+This application can be run passing in the portfolio makeup for each taxable portfolio type.
+It can then be used to decide optimally for your personal investments where to pull from for any given withdrawal.
+It can also be used to deceide optimally for your personal investments let you know when to make a Roth conversion based on a defined percent off the high in your tax deferred investments.
 
 ### Features
 
