@@ -43,7 +43,7 @@ N/A.
 
 ### Usage
 
-- Update with your personal holdings.
+- Update with your personal holdings following the instruction page in the workbook.
 
 ### Acknowledgements
 
