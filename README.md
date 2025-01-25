@@ -22,12 +22,9 @@ It can also be used to deceide optimally for your personal investments let you k
   - Correction: If your personal portfolio performance is more than 10% away from its highs but less than 20% away from its highs, you take a scaled increment from both investemnt and cash reserves. (e.g. If 14.3% from high then take 43% from investments and 57% from cash.)
   - Bear market: If your personal portfolio performance is more than 20% away from its highs, you take 100% from cash reserves.
 
-
- 
-
 ### Built with
 
-- C#
+- Excel
 - Alpha Vantage API
 
 ## Getting started
@@ -38,7 +35,7 @@ N/A.
 
 ### Install
 
-Install by running the MSI file: <a href="SequenceAPITest Installer.msi" download>Click to Download</a>
+Download Excel Workbook.
 
 ### Configure
 
@@ -46,23 +43,16 @@ N/A.
 
 ### Usage
 
-- Run interactively from the command line.
-![Screenshot](UsageScreenShot1.png)
-
-- Schedule to run repeatedly using Windows Task Scheduler.
-![Screenshot](UsageScreenShot2.png)
-
-- Create a shortcut to the command line passing arguments.
-![Screenshot](UsageScreenShot3.png)
+- Update with your personal holdings.
 
 ### Acknowledgements
 
-Thanks to [RestSharp - Simple .NET REST Client](https://github.com/restsharp/RestSharp?tab=readme-ov-file#restsharp---simple-net-rest-client) developers.
+
 
 ### To-do
 
-- [X] Add Idempotency UUID(GUID) generated automatically to constrain the request.
-- [ ] Add additional specific response driven error handling
+- [ ] Automate with C#.
+
 
 ### License
 
